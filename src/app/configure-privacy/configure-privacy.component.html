@@ -1,0 +1,25 @@
+<table class="table form-check form-switch">
+  <tr *ngFor="let opt of options; let i = index">
+    <td>
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="opt_{{ i }}"
+        [checked]="opt.checked"
+        (click)="check(opt)"
+      />
+    </td>
+    <td>
+      <b>{{ opt.value }}</b>
+    </td>
+    <td>
+      {{ opt.label }}
+    </td>
+  </tr>
+</table>
+
+<div
+  *dfpAd="'/6355419/Travel/Europe/France'; size: [728, 90]"
+  id="banner-ad"
+  style="width: 728px; height: 90px"
+></div>
