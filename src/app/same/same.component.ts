@@ -1,3 +1,4 @@
+import '../stackblitz-fix';
 import { ChangeDetectorRef, Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DfpService } from '@wwei/dfp';

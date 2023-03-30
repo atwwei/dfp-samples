@@ -1,3 +1,4 @@
+import './stackblitz-fix';
 import { isPlatformBrowser } from '@angular/common';
 import {
   ChangeDetectionStrategy,
@@ -30,10 +31,10 @@ export class AppComponent {
   constructor(
     @Inject(PLATFORM_ID) platformId: Object,
     private dfp: DfpService,
-    router: Router,
+    router: Router
   ) {
     const navigationEnd = router.events.pipe(
-      filter((event) => event instanceof NavigationEnd),
+      filter((event) => event instanceof NavigationEnd)
     ) as Observable<NavigationEnd>;
     navigationEnd.subscribe((event) => {
       const url = event.url.split('/');

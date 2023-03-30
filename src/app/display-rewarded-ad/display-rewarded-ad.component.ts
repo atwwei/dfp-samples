@@ -1,3 +1,4 @@
+import '../stackblitz-fix';
 import { Component } from '@angular/core';
 import {
   DfpService,

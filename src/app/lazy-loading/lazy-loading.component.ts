@@ -1,3 +1,4 @@
+import '../stackblitz-fix';
 import { ChangeDetectorRef, Component, OnDestroy } from '@angular/core';
 import { DfpService, SlotOnloadEvent, SlotRequestedEvent } from '@wwei/dfp';
 import { takeUntil } from 'rxjs/operators';

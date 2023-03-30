@@ -1,3 +1,4 @@
+import '../stackblitz-fix';
 import { Component, OnDestroy } from '@angular/core';
 import { DfpService } from '@wwei/dfp';
 
